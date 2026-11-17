@@ -15,13 +15,8 @@ data-engineering-lab/
 │           ├── insurance_claims_analysis.ipynb
 │           └── data/
 │               └── README.md
-├── python/
-├── sql/
-├── aws/
-├── snowflake/
-├── databricks/
-├── dbt/
-└── airflow/
+├── .gitignore
+└── requirements.txt
 ```
 
 ## Projects
@@ -31,6 +26,10 @@ data-engineering-lab/
 A hands-on exercise to process nested insurance claim JSON, flatten and explode nested arrays, calculate treatment and medicine costs, aggregate deductions, and derive the final claim amount.
 
 See [projects/pyspark/nested-json-insurance-claims](projects/pyspark/nested-json-insurance-claims/).
+
+## Planned technology areas
+
+As the portfolio grows, additional folders and projects will cover Python, SQL, AWS, Snowflake, Databricks, dbt, and Apache Airflow.
 
 ## How to use this repository
 
